@@ -27,11 +27,7 @@ const menuListSchema = new mongoose.Schema({
         required: true,
         trim: true
     },
-    components:[{
-        component:{
-            type: String
-        }
-    }],
+    components:[String],
     description: {
         type: String,
         required: true,
