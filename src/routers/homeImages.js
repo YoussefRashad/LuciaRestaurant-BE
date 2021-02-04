@@ -2,9 +2,19 @@
 const router = require('express').Router()
 
 const Slider = ['', '', '', '', '', '', '']
-const Gallery = ['https://drive.google.com/file/d/1_FlkANRYkS0bU7Tdl0ZnpL7uaXNWosDs/view?usp=sharing', 'https://drive.google.com/file/d/1fL3fKKwFegeysOm6BiusYmi56cm-BkXC/view?usp=sharing', 'https://drive.google.com/file/d/1n5eNXip_UUfcqC_nQNGj9Wg2WXmGavKK/view?usp=sharing', 'https://drive.google.com/file/d/1PWD32KiwW35f0SI2222Nc8eRcM2DOuTV/view?usp=sharing', 'https://drive.google.com/file/d/1PWD32KiwW35f0SI2222Nc8eRcM2DOuTV/view?usp=sharing', 'https://drive.google.com/file/d/1FlsjFixsqyxffxlmo7VuXUfuo3Oa8z8B/view?usp=sharing']
+const Gallery = [
+    "https://drive.google.com/thumbnail?id=1_FlkANRYkS0bU7Tdl0ZnpL7uaXNWosDs",
+    "https://drive.google.com/thumbnail?id=1fL3fKKwFegeysOm6BiusYmi56cm-BkXC",
+    "https://drive.google.com/thumbnail?id=1n5eNXip_UUfcqC_nQNGj9Wg2WXmGavKK",
+    "https://drive.google.com/thumbnail?id=1PWD32KiwW35f0SI2222Nc8eRcM2DOuTV",
+    "https://drive.google.com/thumbnail?id=1FlsjFixsqyxffxlmo7VuXUfuo3Oa8z8B"
+]
 const AboutUs = {
-    images: ['https://drive.google.com/file/d/1eWfnrGMeit_rh-vOi_UOOZDJ6ZEnl8g1/view?usp=sharing', 'https://drive.google.com/file/d/15QhTkiryPwC1rBlxY9yk0O7Qk3ztX24-/view?usp=sharing', 'https://drive.google.com/file/d/1kBYjUJFYyilclpdS5IP-H46L4qAFDOSk/view?usp=sharing'],
+    images: [
+        'https://drive.google.com/thumbnail?id=1eWfnrGMeit_rh-vOi_UOOZDJ6ZEnl8g1', 
+        'https://drive.google.com/thumbnail?id=15QhTkiryPwC1rBlxY9yk0O7Qk3ztX24-', 
+        'https://drive.google.com/thumbnail?id=1kBYjUJFYyilclpdS5IP-H46L4qAFDOSk'
+    ],
     description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate"
 }
 const AboutInfo = [
